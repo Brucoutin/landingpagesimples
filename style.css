@@ -1,0 +1,195 @@
+/* Reset básico */
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #fff;
+  }
+  
+  header {
+    background-image: url('scr/banner.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Cobrir todo o espaço */
+    background-position: center; /* Centralizar a imagem */
+    height: 100vh; /* Ocupar 100% da altura da tela */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centralizar verticalmente */
+    align-items: center; /* Centralizar horizontalmente */
+    text-align: center;
+    position: relative;
+  }
+  
+  nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+  }
+  
+  nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav .nav-links li {
+    margin-left: 20px;
+  }
+  
+  nav .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .hero {
+    background: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+    padding: 40px;
+    border-radius: 10px;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    background: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background: #ff4500;
+  }
+  
+  /* Estilos existentes permanecem iguais */
+
+/* Estilos para a seção Sobre Nós */
+.about-section {
+    padding: 60px 20px;
+    text-align: center;
+    background: #f4f4f4;
+    color: #333;
+  }
+  
+  .about-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .about-section p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Estilos para a seção Serviços */
+  .services-section {
+    padding: 60px 20px;
+    text-align: center;
+    background: #fff;
+    color: #333;
+  }
+  
+  .services-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .service-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .service {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+  
+  .service img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .service h3 {
+    font-size: 24px;
+    margin: 15px 0;
+  }
+  
+  .service p {
+    font-size: 16px;
+  }
+  
+  /* Estilos para a seção Contato */
+  .contact-section {
+    padding: 60px 20px;
+    text-align: center;
+    background: #f4f4f4;
+    color: #333;
+  }
+  
+  .contact-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form input, form textarea, form button {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background: #ff6347;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  form button:hover {
+    background: #e06b56;
+  }
+  
+  /* Rodapé */
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
